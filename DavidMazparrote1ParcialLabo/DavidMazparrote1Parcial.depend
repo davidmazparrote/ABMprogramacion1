@@ -1,0 +1,164 @@
+# depslib dependency file v1.0
+1570491989 source:d:\davidmazparrote1parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1571327225 source:c:\users\davidynadia\desktop\utn\archivoscodeblocks\davidmazparrote1parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"clientes.h"
+	"alquileres.h"
+
+1570919682 source:c:\users\davidynadia\desktop\utn\archivoscodeblocks\davidmazparrote1parcial\clientes.c
+	"clientes.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1570917764 c:\users\davidynadia\desktop\utn\archivoscodeblocks\davidmazparrote1parcial\clientes.h
+
+1571324594 source:c:\users\davidynadia\desktop\utn\archivoscodeblocks\davidmazparrote1parcial\juegoycategoria.c
+	"alquileres.h"
+	"juegoYCategoria.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571319024 c:\users\davidynadia\desktop\utn\archivoscodeblocks\davidmazparrote1parcial\alquileres.h
+	"clientes.h"
+	"juegoYCategoria.h"
+
+1571188504 c:\users\davidynadia\desktop\utn\archivoscodeblocks\davidmazparrote1parcial\juegoycategoria.h
+	"clientes.h"
+
+1571327127 source:c:\users\davidynadia\desktop\utn\archivoscodeblocks\davidmazparrote1parcial\alquileres.c
+	"alquileres.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571327128 source:g:\programacion i\davidmazparrote1parcial\alquileres.c
+	"alquileres.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571319026 g:\programacion i\davidmazparrote1parcial\alquileres.h
+	"clientes.h"
+	"juegoYCategoria.h"
+
+1570917766 g:\programacion i\davidmazparrote1parcial\clientes.h
+
+1571188506 g:\programacion i\davidmazparrote1parcial\juegoycategoria.h
+	"clientes.h"
+
+1571606902 source:g:\programacion i\davidmazparrote1parcial\clientes.c
+	"clientes.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571324596 source:g:\programacion i\davidmazparrote1parcial\juegoycategoria.c
+	"alquileres.h"
+	"juegoYCategoria.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571327404 source:g:\programacion i\davidmazparrote1parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"clientes.h"
+	"alquileres.h"
+
+1571327128 source:c:\users\dboullon\desktop\davidmazparrote1parcial\alquileres.c
+	"alquileres.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571319026 c:\users\dboullon\desktop\davidmazparrote1parcial\alquileres.h
+	"clientes.h"
+	"juegoYCategoria.h"
+
+1570917766 c:\users\dboullon\desktop\davidmazparrote1parcial\clientes.h
+
+1571188506 c:\users\dboullon\desktop\davidmazparrote1parcial\juegoycategoria.h
+	"clientes.h"
+
+1571327404 source:c:\users\dboullon\desktop\davidmazparrote1parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"clientes.h"
+	"alquileres.h"
+
+1571613499 source:c:\users\dboullon\desktop\davidmazparrote1parcial\juegoycategoria.c
+	"alquileres.h"
+	"juegoYCategoria.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571614461 source:c:\users\dboullon\desktop\davidmazparrote1parcial\clientes.c
+	"clientes.h"
+	"alquileres.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571688668 source:c:\users\davidynadia\desktop\utn\archivoscodeblocks\davidmazparrote1parcialdemiversion\alquileres.c
+	"alquileres.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571686903 c:\users\davidynadia\desktop\utn\archivoscodeblocks\davidmazparrote1parcialdemiversion\alquileres.h
+	"clientes.h"
+	"juegoYCategoria.h"
+
+1571686504 c:\users\davidynadia\desktop\utn\archivoscodeblocks\davidmazparrote1parcialdemiversion\clientes.h
+
+1571685525 c:\users\davidynadia\desktop\utn\archivoscodeblocks\davidmazparrote1parcialdemiversion\juegoycategoria.h
+	"clientes.h"
+
+1571688609 source:c:\users\davidynadia\desktop\utn\archivoscodeblocks\davidmazparrote1parcialdemiversion\clientes.c
+	"clientes.h"
+	"alquileres.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+	<ctype.h>
+
+1571688170 source:c:\users\davidynadia\desktop\utn\archivoscodeblocks\davidmazparrote1parcialdemiversion\juegoycategoria.c
+	"alquileres.h"
+	"juegoYCategoria.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571688406 source:c:\users\davidynadia\desktop\utn\archivoscodeblocks\davidmazparrote1parcialdemiversion\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"clientes.h"
+	"alquileres.h"
+
+1571671983 c:\users\davidynadia\desktop\utn\archivoscodeblocks\davidmazparrote1parcialdemiversion\validaciones.h
+
+1571687095 source:c:\users\davidynadia\desktop\utn\archivoscodeblocks\davidmazparrote1parcialdemiversion\validaciones.c
+	"clientes.h"
+	"validaciones.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
