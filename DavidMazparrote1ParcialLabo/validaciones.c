@@ -15,7 +15,7 @@ void validaNombreApellido(char nombreOApellido[])
 
     while(strlen(nombreOApellido)>51)
     {
-        printf("Nombre muy largo ingrese otro : ");
+        printf("Nombre muy largo ingrese otro por favor: ");
         fflush(stdin);
         gets(nombreOApellido);
     }
