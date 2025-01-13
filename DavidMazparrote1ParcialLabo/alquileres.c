@@ -7,11 +7,11 @@
 /** \brief Ingresa una nueva solicitud de alquiler
  *
  * \param Iector de clientes
- * \param Tamaño del vector de clientes
+ * \param TamaÃ±o del vector de clientes
  * \param Vector de alquiler
- * \param Tamaño del vector de alquiler
+ * \param TamaÃ±o del vector de alquiler
  * \param Vector de juegos
- * \param Tamaño del vector de juegos
+ * \param TamaÃ±o del vector de juegos
 
  * \return Retorna un 1 si dio de alta o 0 si no pudo
  *
@@ -23,7 +23,7 @@ int altaAlquileres(eCliente clientes[],int tamC,int codigoDeAlquiler,eAlquiler a
     int indice=-1;
     int codigoJuego;
     int codigoCliente;
-    eFecha fecha;
+    eFecha fecha; //modifico una clase
 
     system("cls");
 
@@ -83,7 +83,7 @@ eAlquiler nuevoAlquiler(int codigoAlquiler,int codigoJuego,int codigoCliente, eF
 /** \brief Da de alta logica a un alquiler
  *
  * \param Vector de alquiler
- * \param Tamaño del vector de alquiler
+ * \param TamaÃ±o del vector de alquiler
  * \return void
  *
  */
@@ -97,7 +97,7 @@ void inicializarAlquiler(eAlquiler vecAl[], int tamAl)
 /** \brief Busca poscicion para un nuevo alquiler
  *
  * \param Vector de alquilers
- * \param Tamaño del vector de alquileres
+ * \param TamaÃ±o del vector de alquileres
  * \return retorna el indice del lugar,puede se 1,0 o -1.
  *
  */
@@ -119,7 +119,7 @@ int buscarLugarLibreAlquiler(eAlquiler vec[],int tamAlq)
 /** \brief Muestra a un alquiler
  *
  * \param Vector de alquiler
- * \param Tamaño del vector de alquileres
+ * \param TamaÃ±o del vector de alquileres
  * \return void
  *
  */
@@ -132,7 +132,7 @@ void mostrarAlquiler(eAlquiler vecA,int tamAl)
 /** \brief Muestra todos los alquileres
  *
  * \param Vector de alquiler
- * \param Tamaño del vector de alquileres
+ * \param TamaÃ±o del vector de alquileres
  * \return void
  *
  */
@@ -165,7 +165,7 @@ void mostrarAlquileres(eAlquiler vecA[], int tamA)
 /** \brief Hardcodea un numero de alquileres
  *
  * \param Vector de alquiler
- * \param Tamaño del vector de alquiler
+ * \param TamaÃ±o del vector de alquiler
  * \param Un entero para definir cuantos clientes quiere que le pase cuando sea llamado
  * \return Un contador entero auto incremental para poder asignarle un numero de codigo unico
  *
