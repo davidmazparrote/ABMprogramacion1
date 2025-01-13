@@ -8,7 +8,7 @@
 
 /** \brief Ingresa una nueva solicitud de cliente
  * \param Vector de clientes
- * \param Tamaño del vector de clientes
+ * \param Tamaï¿½o del vector de clientes
  * \param Un entero para el codigo
  * \return Retorna un 1 si dio de alta o 0 si no pudo
  *
@@ -21,7 +21,7 @@ int altaCliente(eCliente cliente[], int tamC, int codigo)
     char apellido[200];
     char sexo;
     char telefono[200];
-    char domicilio[200];
+    char domicilio[200]; //test cambio
 
     system("cls");
 
@@ -98,7 +98,7 @@ eCliente nuevoCliente( int codigo,char nombre[51],char apellido[51],char sexo,ch
 /** \brief Da de alta logica a un cliente
  *
  * \param Vector de clientes
- * \param Tamaño del vector de clientes
+ * \param Tamaï¿½o del vector de clientes
  * \return void
  *
  */
@@ -113,7 +113,7 @@ void inicializarClientes(eCliente vecC[], int tamC)
 /** \brief Busca poscicion para un nuevo cliente
  *
  * \param Vector de clientes
- * \param Tamaño del vector de clientes
+ * \param Tamaï¿½o del vector de clientes
  * \return retorna el indice del lugar,puede se 1,0 o -1.
  *
  */
@@ -137,7 +137,7 @@ int buscarLugarLibre(eCliente vec[], int tamCliente)
 /** \brief Muestra a un cliente
  *
  * \param Vector de clientes
- * \param Tamaño del vector de clientes
+ * \param Tamaï¿½o del vector de clientes
  * \return void
  *
  */
@@ -152,7 +152,7 @@ void mostraCliente(eCliente cli,int tamCli)
 /** \brief Muestra a todos los clientes
  *
  * \param Vector de clientes
- * \param Tamaño del vector de clientes
+ * \param Tamaï¿½o del vector de clientes
  * \return void
  *
  */
@@ -186,7 +186,7 @@ void mostrarClientes(eCliente cl[], int tamC)
 /** \brief Hardcodea un numero de clientes
  *
  * \param Vector de clientes
- * \param Tamaño del vector de clientes
+ * \param Tamaï¿½o del vector de clientes
  * \param Un entero para definir cuantos clientes quiere que le pase cuando sea llamado
  * \return Un contador entero auto incremental para poder asignarle un numero de codigo unico
  *
@@ -219,7 +219,7 @@ int hardcodearClientes(eCliente vecC[], int tamC, int cantidad)
 /** \brief Da de baja logica a un cliente
  *
  * \param Vector de clientes
- * \param Tamaño del vector de clientes
+ * \param Tamaï¿½o del vector de clientes
   * \return Retorna un 1 si dio de baja o 0 si no pudo
  */
 
@@ -269,7 +269,7 @@ int bajaCliente(eCliente clienteVec[],int tamC)
 /** \brief Busca un cliente a traves de su codigo
  *
  * \param Vector de clientes
- * \param Tamaño del vector de clientes
+ * \param Tamaï¿½o del vector de clientes
  * \param Un entero para el codigo
   * \return retorna la posicion del cliente
  */
@@ -295,7 +295,7 @@ int buscarCliente(eCliente clientes[],int tamC, int codigoCliente)
 /** \brief Modifica al cliente seleccionado a traves de su codigo
  *
  * \param Vector de clientes
- * \param Tamaño del vector de clientes
+ * \param Tamaï¿½o del vector de clientes
  * \return Retorna 1 o 0 dependiendo si pudo modificarlo o no
  */
 int modificarCliente(eCliente clientes[],int tamC)
@@ -387,7 +387,7 @@ int modificarCliente(eCliente clientes[],int tamC)
 /** \brief Ordena a los clientes por su apellido
  *
  * \param Vector de clientes
- * \param Tamaño del vector de clientes
+ * \param Tamaï¿½o del vector de clientes
   * \return void
  */
 void ordenarClientes(eCliente cl[],int tamC)
@@ -411,9 +411,9 @@ void ordenarClientes(eCliente cl[],int tamC)
 /** \brief Muestra el alquiler realizado por un cliente seleccionado
  *
   * \param Vector de clientes
-  * \param Tamaño del vector de clientes
+  * \param Tamaï¿½o del vector de clientes
   * \param Vector de alquiler
-  * \param Tamaño del vector de alquiler
+  * \param Tamaï¿½o del vector de alquiler
   * \return void
  */
 void mostrarAlquilerDeUnClienteSeleccionado(eCliente cliente[],int tamCl,eAlquiler alq[],int tamAl)
@@ -438,11 +438,11 @@ void mostrarAlquilerDeUnClienteSeleccionado(eCliente cliente[],int tamCl,eAlquil
 /** \brief Muestra el importe total de los alquileres realizados por un cliente seleccionado
  *
   * \param Vector de clientes
-  * \param Tamaño del vector de clientes
+  * \param Tamaï¿½o del vector de clientes
   * \param Vector de alquiler
-  * \param Tamaño del vector de alquiler
+  * \param Tamaï¿½o del vector de alquiler
   * \param Vector de juegos
-  * \param Tamaño del vector de juegos
+  * \param Tamaï¿½o del vector de juegos
   * \return void
  */
 void mostrarImporteTotalPagadoPorUnCliente(eCliente clientes[],int tamCl,eAlquiler alq[],int tamAl,eJuego juegos[],int tamJ)
@@ -478,9 +478,9 @@ void mostrarImporteTotalPagadoPorUnCliente(eCliente clientes[],int tamCl,eAlquil
 /** \brief Muestra los clientes que no alquilaron juegos
  *
   * \param Vector de clientes
-  * \param Tamaño del vector de clientes
+  * \param Tamaï¿½o del vector de clientes
   * \param Vector de alquiler
-  * \param Tamaño del vector de alquiler
+  * \param Tamaï¿½o del vector de alquiler
   * \return void
  */
 void mostarClientesSinAlquiler(eCliente clientes[], int tamCli, eAlquiler alquileres[], int tamAlq)
