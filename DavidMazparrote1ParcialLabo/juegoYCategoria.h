@@ -9,7 +9,7 @@ typedef struct
     int codigo;
     char descripcion[20];
     float importe;
-    int idCategoria;
+    int idCategoria; // cambio en branch1
 
 } eJuego;
 
