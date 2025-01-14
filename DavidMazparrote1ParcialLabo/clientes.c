@@ -18,7 +18,7 @@ int altaCliente(eCliente cliente[], int tamC, int codigo)
     int altaCorrecta = 0;
     int indice;
     char nombre[200];
-    char apellido[200];
+    char apellido[200]; //cambio 3
     char sexo;
     char telefono[200];
     char domicilio[200]; //test cambio
