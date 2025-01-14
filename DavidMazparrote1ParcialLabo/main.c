@@ -36,7 +36,7 @@ int main()
 
     do
     {
-        switch(menuPrincipal())
+        switch(menuPrincipal())//modificacion en main
         {
         case 1:
 
